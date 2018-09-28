@@ -1,0 +1,26 @@
+<resources>
+    //View MainActivity
+    <string name="app_name">FTAPP</string>
+    <string name="home">Welcome to my APP!!</string>
+    <string name="text">Hii</string>
+    <string name="buttonAll">All</string>
+    <string name="buttonOne">One</string>
+    <string name="buttonID">Find By ID</string>
+
+    //View AllActivity
+    <string name="textviewAll"></string>
+    <string name="buttonAllRefresh">Refresh</string>
+
+    //View OneActivity
+    <string name="textviewOne"></string>
+    <string name="buttonOneRefresh">Refresh</string>
+
+    //View IDActivity
+    <string name="textviewname">Name</string>
+    <string name="textviewautor">Autor</string>
+    <string name="textvieweditorial">Editorial</string>
+    <string name="textviewprice">Price</string>
+    <string name="textnumber">ID</string>
+    <string name="buttonid">Send</string>
+    <string name="error_required_field">Field Required</string>
+</resources>

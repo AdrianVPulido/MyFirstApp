@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".IDActivity">
+
+    <TextView
+        android:id="@+id/textViewPrice"
+        android:layout_width="141dp"
+        android:layout_height="35dp"
+        android:layout_marginBottom="62dp"
+        android:layout_marginEnd="227dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="227dp"
+        android:layout_marginStart="16dp"
+        android:text="@string/textviewprice"
+        app:layout_constraintBottom_toTopOf="@+id/TextNumber"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewAutor"
+        android:layout_width="141dp"
+        android:layout_height="35dp"
+        android:layout_marginBottom="52dp"
+        android:layout_marginEnd="227dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="227dp"
+        android:layout_marginStart="16dp"
+        android:text="@string/textviewautor"
+        app:layout_constraintBottom_toTopOf="@+id/textViewEditorial"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewEditorial"
+        android:layout_width="141dp"
+        android:layout_height="35dp"
+        android:layout_marginBottom="48dp"
+        android:layout_marginEnd="227dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="227dp"
+        android:layout_marginStart="16dp"
+        android:text="@string/textvieweditorial"
+        app:layout_constraintBottom_toTopOf="@+id/textViewPrice"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewName"
+        android:layout_width="141dp"
+        android:layout_height="35dp"
+        android:layout_marginBottom="50dp"
+        android:layout_marginEnd="227dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="227dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/textviewname"
+        app:layout_constraintBottom_toTopOf="@+id/textViewAutor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/TextNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="85dp"
+        android:layout_marginLeft="84dp"
+        android:layout_marginRight="85dp"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="62dp"
+        android:ems="10"
+        android:hint="@string/textnumber"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewPrice" />
+
+    <Button
+        android:id="@+id/buttonID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="17dp"
+        android:layout_marginEnd="148dp"
+        android:layout_marginLeft="148dp"
+        android:layout_marginRight="148dp"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/buttonid"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TextNumber" />
+</android.support.constraint.ConstraintLayout>
